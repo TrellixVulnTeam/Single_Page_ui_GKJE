@@ -1,0 +1,23 @@
+{
+  "name": "single_page_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w index.scss main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunSaboori/Single_Page_ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunSaboori/Single_Page_ui/issues"
+  },
+  "homepage": "https://github.com/arunSaboori/Single_Page_ui#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
