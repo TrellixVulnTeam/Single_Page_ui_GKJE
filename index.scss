@@ -1,6 +1,6 @@
 $none: none;
 $color-black: black;
-
+$color-white:white;
 @font-face {
   font-family: "vazir";
   src: url(./font/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff);
@@ -23,7 +23,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  background-color: $color-white;
   justify-content: flex-start;
   margin: 15px 4rem;
   div {
@@ -40,7 +40,7 @@ header {
   a {
     color: $color-black;
     &:hover {
-      color: white;
+      color: $color-white;
       background-color: $color-black;
       transition: 0.3s;
       border-radius: 10px;
