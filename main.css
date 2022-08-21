@@ -92,7 +92,8 @@ footer {
   justify-content: center;
   align-items: center; }
   footer ul {
-    display: flex; }
+    display: flex;
+    justify-content: space-around; }
   footer img {
     width: 100px;
     height: 100px;
@@ -113,3 +114,84 @@ footer {
   .end p:hover {
     color: blue;
     text-decoration: underline; }
+
+@media (min-width: 450px) and (max-width: 639px) {
+  header {
+    font-size: 14px;
+    margin: 10px; }
+    header div {
+      padding: 0px 1rem; }
+    header li {
+      padding: 0px 1rem; }
+  .avatar {
+    text-align: center;
+    position: absolute;
+    top: 7%;
+    left: 37%; }
+    .avatar img {
+      display: none; }
+    .avatar p {
+      font-size: 15px;
+      display: flex;
+      justify-content: center; }
+  .connect {
+    height: 80vh;
+    display: flex;
+    justify-content: center; }
+    .connect img {
+      width: 100px;
+      height: 100px; }
+    .connect ul {
+      display: flex;
+      flex-direction: column; }
+    .connect p {
+      font-size: 15px; }
+  footer ul {
+    display: flex;
+    justify-content: space-around; }
+  footer img {
+    width: 40px;
+    height: 40px;
+    padding: 0px 5px; }
+  .end {
+    height: 25vh;
+    align-items: center; } }
+
+@media (min-width: 640px) and (max-width: 1007px) {
+  .avatar {
+    position: absolute;
+    top: 8%;
+    right: 30%; }
+  .connect {
+    height: 100vh; }
+    .connect ul {
+      flex-direction: column; }
+    .connect li {
+      padding: 15px 10rem; }
+  footer {
+    height: 40vh; }
+    footer img {
+      width: 60px;
+      height: 70px; }
+  .end {
+    height: 25vh;
+    align-items: center; } }
+
+@media (min-width: 1008px) {
+  .connect {
+    height: 40vh;
+    display: flex;
+    margin-top: 10%;
+    text-align: center; }
+    .connect li {
+      padding: 0px 5rem; }
+  footer {
+    height: 40vh; }
+    footer img {
+      width: 80px;
+      height: 70px; }
+  .end {
+    display: flex;
+    height: 55vh;
+    position: absolute;
+    bottom: 4%; } }
